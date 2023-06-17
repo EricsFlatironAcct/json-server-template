@@ -3,7 +3,34 @@
     {
       "id": 1,
       "name": "Timmy",
+      "scores": [[5, 5]]
+    },
+    {
+      "id": 2,
+      "name": "Jimmy",
       "scores": []
+    },
+    {
+      "name": "Limmy",
+      "scores": [],
+      "id": 3
+    }
+  ],
+  "quizLib": [
+    {
+      "id": 1,
+      "questions": [
+        {
+          "name": "Who is the founder of Team Fortress 2&#039;s fictional company &quot;Mann Co&quot;?",
+          "correct_answer": "Zepheniah Mann",
+          "answers": ["Zepheniah Mann", "Cave Johnson", "Wallace Breem", "Saxton Hale"]
+        },
+        {
+          "name": "What was studio Trigger&#039;s first original long-form animated series for television?",
+          "correct_answer": "Kill la Kill",
+          "answers": ["Kill la Kill", "Kiznaiver", "Inferno Cop", "Gurren Lagann"]
+        }
+      ]
     }
   ]
 }
