@@ -3,34 +3,179 @@
     {
       "id": 1,
       "name": "Timmy",
-      "scores": [[5, 5]]
+      "scores": [null, [5, 10], null, [3, 6]]
     },
     {
       "id": 2,
       "name": "Jimmy",
-      "scores": []
+      "scores": [null, [2, 10]]
     },
     {
       "name": "Limmy",
       "scores": [],
       "id": 3
+    },
+    {
+      "name": "",
+      "scores": [],
+      "id": 4
     }
   ],
   "quizLib": [
     {
-      "id": 1,
       "questions": [
         {
-          "name": "Who is the founder of Team Fortress 2&#039;s fictional company &quot;Mann Co&quot;?",
-          "correct_answer": "Zepheniah Mann",
-          "answers": ["Zepheniah Mann", "Cave Johnson", "Wallace Breem", "Saxton Hale"]
+          "name": "Who was the original drummer for The Beatles?",
+          "answers": ["Tommy Moore", "Ringo Starr", "Stuart Sutcliffe", "Pete Best"],
+          "correct_answer": "Tommy Moore"
         },
         {
-          "name": "What was studio Trigger&#039;s first original long-form animated series for television?",
-          "correct_answer": "Kill la Kill",
-          "answers": ["Kill la Kill", "Kiznaiver", "Inferno Cop", "Gurren Lagann"]
+          "name": "What does the \"G\" mean in \"G-Man\"?",
+          "answers": ["Government", "Going", "Ghost", "Geronimo"],
+          "correct_answer": "Government"
+        },
+        {
+          "name": "Which one of these artists appears in the album Deltron 3030?",
+          "answers": ["Lamarr Kendrick", "Dan the Automater", "CeeLo Green", "Danger Mouse"],
+          "correct_answer": "Dan the Automater"
+        },
+        {
+          "name": "Which of these is NOT a car model produced by Malaysian car manufacturer Proton?",
+          "answers": ["Inspira", "Saga", "Kelisa", "Perdana"],
+          "correct_answer": "Kelisa"
+        },
+        {
+          "name": "In Call of Duty: United Offensive, what two soldiers share a name of a video game character?",
+          "answers": ["Dig & Dug", "Nathan & Drake", "Sam & Fisher", "Gordon & Freeman"],
+          "correct_answer": "Gordon & Freeman"
+        },
+        {
+          "name": "Who won the 2016 Formula 1 World Driver's Championship?",
+          "answers": ["Nico Rosberg", "Lewis Hamilton", "Max Verstappen", "Kimi Raikkonen"],
+          "correct_answer": "Nico Rosberg"
+        },
+        {
+          "name": "Which of these voices wasn't a choice for the House AI in \"The Simpsons Treehouse of Horror\" short, House of Whacks?",
+          "answers": ["George Clooney", "Matthew Perry", "Dennis Miller", "Pierce Brosnan"],
+          "correct_answer": "George Clooney"
+        },
+        {
+          "name": "What is the most challenging monster in the Dungeons & Dragons 5th Edition Monster Manual?",
+          "answers": ["Tarrasque", "Beholder", "Lich", "Displacer Beast"],
+          "correct_answer": "Tarrasque"
+        },
+        {
+          "name": "In Left 4 Dead, which campaign has the protagonists going through a subway in order to reach a hospital for evacuation?",
+          "answers": ["Subway Sprint", "Blood Harvest", "No Mercy", "Hospital Havoc"],
+          "correct_answer": "No Mercy"
+        },
+        {
+          "name": "From where does the Nintendo video game character Mario derive his name?",
+          "answers": [
+            "The date (Mar 10) that Donkey Kong was released.",
+            "The landlord of the American headquarters",
+            "Shigeru Miyamoto's father in law",
+            "Satoru Iwata's plumber"
+          ],
+          "correct_answer": "The landlord of the American headquarters"
         }
-      ]
+      ],
+      "id": 1
+    },
+    {
+      "questions": [
+        {
+          "name": "On a London Underground map, what colour is the Circle Line?",
+          "answers": ["Green", "Blue", "Red", "Yellow"],
+          "correct_answer": "Yellow"
+        },
+        {
+          "name": "What was Dorothy's surname in 'The Wizard Of Oz'?",
+          "answers": ["Gale", "Parker", "Perkins", "Day"],
+          "correct_answer": "Gale"
+        },
+        {
+          "name": "In the game \"Subnautica\", which feature was removed due to performance issues in 2016?",
+          "answers": ["Terraforming", "Crafting", "Building", "Multiplayer"],
+          "correct_answer": "Terraforming"
+        },
+        {
+          "name": "What are the cylinder-like parts that pump up and down within the engine?",
+          "answers": ["Radiators", "Leaf Springs", "Pistons", "ABS"],
+          "correct_answer": "Pistons"
+        },
+        {
+          "name": "In the DC Comics 2016 reboot, Rebirth, which speedster escaped from the Speed Force after he had been erased from existance?",
+          "answers": ["Johnny Quick", "Eobard Thawne", "Wally West", "Jay Garrick"],
+          "correct_answer": "Wally West"
+        },
+        {
+          "name": "Which country has the most Trappist breweries?",
+          "answers": ["USA", "Belgium", "Netherlands", "France"],
+          "correct_answer": "Belgium"
+        },
+        {
+          "name": "\"Hallelujah\" is a song written by which Canadian recording artist?",
+          "answers": ["Ryan Letourneau ", "Kory Lefkowits", "Justin Bieber ", "Leonard Cohen"],
+          "correct_answer": "Leonard Cohen"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "questions": [
+        {
+          "name": "In 2012 the German-speaking microstate \"Liechtenstein\" in Central Europe had a population of how many inhabitants?",
+          "answers": ["36,600", "323,400", "90,000", "2,400"],
+          "correct_answer": "36,600"
+        },
+        {
+          "name": "How many countries are larger than Australia?",
+          "answers": ["6", "5", "4", "3"],
+          "correct_answer": "5"
+        },
+        {
+          "name": "What is the official language of Bhutan?",
+          "answers": ["Dzongkha", "Karen", "Ladakhi", "Groma"],
+          "correct_answer": "Dzongkha"
+        },
+        {
+          "name": "What is the highest mountain in the world?",
+          "answers": ["Mt. Everest", "Annapurna", "Mount Godwin Austen", "Kangchenjunga"],
+          "correct_answer": "Mt. Everest"
+        },
+        {
+          "name": "The Alps are a mountain range on which continent?",
+          "answers": ["Africa", "Asia", "North America", "Europe"],
+          "correct_answer": "Europe"
+        },
+        {
+          "name": "Which country is the Taedong River in?",
+          "answers": ["Japan", "North Korea", "China", "South Korea"],
+          "correct_answer": "North Korea"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "questions": [
+        {
+          "name": "In the 1984 movie \"The Terminator\", what model number is the Terminator portrayed by Arnold Schwarzenegger?",
+          "answers": ["T-888", "I-950", "T-1000", "T-800"],
+          "correct_answer": "T-800"
+        },
+        {
+          "name": "Who played Batman in the 1997 film \"Batman and Robin\"?",
+          "answers": ["Christian Bale", "Michael Keaton", "Val Kilmer", "George Clooney"],
+          "correct_answer": "George Clooney"
+        },
+        {
+          "name": "According to \"Star Wars\" lore, which planet does Obi-Wan Kenobi come from?",
+          "answers": ["Naboo", "Tatooine", "Alderaan", "Stewjon"],
+          "correct_answer": "Stewjon"
+        }
+      ],
+      "id": 4
     }
   ]
 }
